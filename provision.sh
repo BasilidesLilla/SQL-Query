@@ -19,3 +19,7 @@ systemctl restart postgresql
 cp /vagrant/alt_user.sh $HOME/
 cp /vagrant/list_users.sh $HOME/
 cp /vagrant/usermod.sh $HOME/
+
+chmod +x $HOME/alt_user.sh
+chmod +x $HOME/list_users.sh
+chmod +x $HOME/usermod.sh
